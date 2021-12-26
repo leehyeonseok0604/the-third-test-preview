@@ -79,24 +79,36 @@ main {
 .today-book__data > p ~ p {
   font-size: 10px;
   margin-top: 10px;
+  opacity: 0.5;
 }
 .fa-star,
 .fa-heart {
   font-size: 10px;
 }
+.today-book__data--pp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 13px;
+  background-color: grey;
+  opacity: 0;
+  padding: 5px;
+  width: auto;
+  color: #ffffff;
+}
 .today-book__data span {
   font-size: 10px;
   margin-top: 10px;
-  background-color: rosybrown;
-  opacity: 0.5;
-  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
   padding: 3px 10px;
   margin-left: 5px;
 }
 .heart-in {
   display: flex;
   justify-content: space-between;
-  padding: 0px 30px;
 }
 .heart-gg {
   margin-top: 10px;
